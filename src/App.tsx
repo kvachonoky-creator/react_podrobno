@@ -5,9 +5,8 @@ import { OnOff } from './onOff';
 
 function App() {
   return (
-    <div>
-      <OnOff selected={false} />
-      <OnOff selected={true} />
+    <div className={"App"}>
+      <OnOff />
     </div>
   );
 }
