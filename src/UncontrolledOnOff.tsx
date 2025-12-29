@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { isPropertySignature } from "typescript";
 
 type PropsType = {
     // on: boolean
