@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
-import { ControlledOnOff } from './ControlledOnOff';
-import { ItemType, Select } from './Select';
-import { HookUseMemo } from './HookUseMemo';
-import { Example1 } from './UseState';
+import { ItemType } from './Select';
+import { UseEffect } from './UseEffect';
 
 function App() {
 
@@ -24,7 +22,7 @@ function App() {
 
   return (
     <div className={"App"}>
-      <Example1 />
+      <UseEffect/>
     </div>
   );
 }
