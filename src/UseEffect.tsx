@@ -5,7 +5,7 @@ export const UseEffect = () => {
 
     useEffect(() => {
         let a = new Date()
-        setInterval(() => {
+       const intID = setInterval(() => {
             setB(`${a.getHours()}: ${a.getMinutes()}: ${a.getSeconds()}`)
         }, 1000)
     }, [b])

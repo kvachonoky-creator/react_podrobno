@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { ItemType } from './Select';
 import { UseEffect } from './UseEffect';
+import {Clock} from "./Clock";
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
 
   return (
     <div className={"App"}>
-      <UseEffect/>
+      {/*<UseEffect/>*/}
+        <Clock/>
     </div>
   );
 }
