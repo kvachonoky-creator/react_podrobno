@@ -3,6 +3,7 @@ import './App.css';
 import { ItemType } from './Select';
 import { UseEffect } from './UseEffect';
 import {Clock} from "./Clock";
+import { ClockAnalog } from "./ClockAnalog";
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
   return (
     <div className={"App"}>
       {/*<UseEffect/>*/}
-        <Clock/>
+      {/*  <Clock/>*/}
+     <ClockAnalog/>
     </div>
   );
 }
